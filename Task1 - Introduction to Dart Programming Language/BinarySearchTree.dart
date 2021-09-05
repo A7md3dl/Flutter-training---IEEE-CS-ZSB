@@ -1,6 +1,6 @@
 void main() {
   List<int> arr = [0, 1, 3, 4, 5, 8, 9, 22];
-  int uValue = 5;
+  int userValue = 5;
   int min = 0;
   int max = arr.length - 1;
   binarySearch(arr, userValue, min, max);
